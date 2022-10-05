@@ -9,7 +9,7 @@ export default function Home({ blog }) {
   return (
     <div>
       <UnorderedList>
-        {/* ここでブログのタイトルとidを取得しています*/}
+        {/* ここでブログのタイトルとidを取得しています blog*/}
         {blog.map((blog) => (
           <ListItem key={blog.id}>
             <Link href={`/blog/${blog.id}`}>
@@ -17,7 +17,6 @@ export default function Home({ blog }) {
             </Link>
           </ListItem>
         ))}
-        
       </UnorderedList>
     </div>
   );

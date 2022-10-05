@@ -1,11 +1,12 @@
 html,
 body {
+  /* a */
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
+/* Language: css */
 a {
   color: inherit;
   text-decoration: none;
@@ -15,6 +16,7 @@ a {
   box-sizing: border-box;
 }
 
+/* @mediaとは、画面サイズによってスタイルを変えるときに使う */
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

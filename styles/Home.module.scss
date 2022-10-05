@@ -1,8 +1,11 @@
+/* scssとは、CSSの拡張機能である。CSSの記述をより簡潔に記述できる。 */
+//.mainは、Home.module.scssの中のmainクラスを指す
 .main {
   width: 960px;
   margin: 0 auto;
 }
-
+// Path: pages/index.js
+/* */
 .title {
   margin-bottom: 20px;
 }
@@ -11,6 +14,7 @@
   margin-bottom: 40px;
 }
 
+//&は、自分自身を指す
 .post {
   & > h1 {
     font-size: 30px;
@@ -35,6 +39,8 @@
 
   & > ol {
     list-style-type: decimal;
+    //decimalは、数字のリスト
     list-style-position: inside;
   }
 }
+
