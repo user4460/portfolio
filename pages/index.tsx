@@ -2,21 +2,23 @@
 import Link from "next/link";
 import { client } from "../libs/client";
 import * as React from "react";
+import { UnorderedList, ListItem } from "@chakra-ui/react";
+import { LinkBox, LinkOverlay } from "@chakra-ui/react";
 
 export default function Home({ blog }) {
   return (
     <div>
-      <ul>
+      <UnorderedList>
         {/* ここでブログのタイトルとidを取得しています*/}
         {blog.map((blog) => (
-          <li key={blog.id}>
+          <ListItem key={blog.id}>
             <Link href={`/blog/${blog.id}`}>
               <a>{blog.title}</a>
             </Link>
-          </li>
+          </ListItem>
         ))}
         
-      </ul>
+      </UnorderedList>
     </div>
   );
 }

@@ -13,7 +13,7 @@
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "firebase": "^9.10.0",
-    "framer-motion": "^7.5.1",
+    "framer-motion": "^7.5.2",
     "install": "^0.13.0",
     "microcms-js-sdk": "^2.2.1",
     "next": "12.3.1",
