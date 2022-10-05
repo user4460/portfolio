@@ -1,4 +1,7 @@
 {
+  "_comment": {
+    "comment": "コメントをきっちり書く設定等にも"
+  },
   "name": "microcms-next-jamstack-blog",
   "version": "0.1.0",
   "private": true,

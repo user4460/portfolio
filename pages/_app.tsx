@@ -5,6 +5,7 @@ import { ChakraProvider } from '@chakra-ui/react'
 function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider>
+      {/* Componentとは、仮引数　*/}
       <Component {...pageProps} />
     </ChakraProvider>
   )
