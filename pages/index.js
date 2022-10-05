@@ -6,6 +6,7 @@ export default function Home({ blog }) {
   return (
     <div>
       <ul>
+        {/* ここでブログのタイトルとidを取得しています*/}
         {blog.map((blog) => (
           <li key={blog.id}>
             <Link href={`/blog/${blog.id}`}>
@@ -13,6 +14,7 @@ export default function Home({ blog }) {
             </Link>
           </li>
         ))}
+        
       </ul>
     </div>
   );
