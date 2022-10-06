@@ -1,7 +1,10 @@
 // pages/index.js
 import Link from "next/link";
+//microcms-js-sdk
 import { client } from "../libs/client";
+//react
 import * as React from "react";
+//chakura-ui
 import { UnorderedList, ListItem } from "@chakra-ui/react";
 import { LinkBox, LinkOverlay } from "@chakra-ui/react";
 
