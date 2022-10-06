@@ -1,3 +1,2 @@
 常にgit編集中にするためのファイル	
 
-npm run dev とは、package.jsonの中のdevの中のコマンドを実行するという意味。
