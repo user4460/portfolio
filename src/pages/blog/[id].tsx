@@ -1,6 +1,6 @@
 // pages/blog/[id].js
 import { client } from "../../libs/client";
-import styles from '../../styles/Home.module.scss';
+import styles from './styles/Home.module.scss';
 import * as React from 'react'
 
 export default function BlogId({ blog }) {
