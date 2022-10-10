@@ -1,11 +1,13 @@
+// tsconfig.jsonとは、TypeScriptの設定ファイルです。
 {
+  "コメント": {
+    "コメント": "このファイルには、TypeScriptのコンパイル時の設定を記述します。このファイルは、TypeScriptのコンパイル時に読み込まれます。",
+    "参考": "https://www.typescriptlang.org/ja/tsconfig"
+
+  },
   "compilerOptions": {
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
@@ -19,15 +21,6 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
 }
-// tsconfig.jsonとは、TypeScriptの設定ファイルです。
-// このファイルには、TypeScriptのコンパイル時の設定を記述します。
-// このファイルは、TypeScriptのコンパイル時に読み込まれます。

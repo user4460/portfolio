@@ -1,6 +1,7 @@
 { 
   "コメント": {
     "コメント": "//firebase.jsonとは、firebaseの設定ファイルです。firebase.jsonを編集することで、firebaseの設定を変更することができます。"
+    "参考": "https://firebase.google.com/docs/cli?hl=ja"
   },
   "firestore": {
     "rules": "firestore.rules",

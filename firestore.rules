@@ -1,5 +1,7 @@
 //firestore.rulesとは、Cloud Firestoreのセキュリティルールを記述するファイルです。
+//参考：https://firebase.google.com/docs/firestore/security/rules-structure?hl=ja
 rules_version = '2';
+//serviceとは、Cloud Firestoreのセキュリティルールを記述するファイルです。
 service cloud.firestore {
   //matchとは、リクエストのURLと、このルールのパスが一致するかどうかを判定するもの
   match /databases/{database}/documents {

@@ -1,6 +1,7 @@
 {
   "_comment": {
-    "comment": "コメントをきっちり書く設定等にも"
+    "comment": "package.jsonとは、npmパッケージの設定ファイルです。",
+    "参考": "https://docs.npmjs.com/cli/v7/configuring-npm/package-json"
   },
   "name": "microcms-next-jamstack-blog",
   "version": "0.1.0",
