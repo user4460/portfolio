@@ -1,5 +1,7 @@
+//firestore.rulesとは、Cloud Firestoreのセキュリティルールを記述するファイルです。
 rules_version = '2';
 service cloud.firestore {
+  //matchとは、リクエストのURLと、このルールのパスが一致するかどうかを判定するもの
   match /databases/{database}/documents {
     match /{document=**} {
       allow read, write: if
@@ -7,3 +9,13 @@ service cloud.firestore {
     }
   }
 }
+
+//読み書きを許可するドキュメントのパスを指定する
+//service cloud.firestore {
+//  match /databases/{database}/documents {
+//    match /todos/{todoId} {
+//      allow write: if request.resource.data.title is stirng &&
+//                              request.resource.data.content is stirng;
+//    }
+//  }
+//}
